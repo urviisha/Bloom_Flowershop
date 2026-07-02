@@ -1,0 +1,40 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Flower Shop</title>
+    <link rel="stylesheet" href="./css/auth.css">
+</head>
+
+<body>
+
+    <div class="container">
+<form id="loginForm" action="./php/login.php" method="POST">
+
+    <h2>Login</h2>
+
+    <div class="input-box">
+        <label>Email</label>
+        <input type="email" name="email" id="loginEmail" placeholder="Enter your email">
+        <p class="error" id="loginEmailError"></p>
+    </div>
+
+    <div class="input-box">
+        <label>Password</label>
+        <input type="password" name="password" id="loginPassword" placeholder="Enter your password">
+        <p class="error" id="loginPasswordError"></p>
+    </div>
+
+    <button type="submit" class="btn">Login</button>
+
+    <p class="switch">Don't have an account? <a href="./register.html">Register</a></p>
+</form>
+
+    </div>
+
+    <script src="./js/auth.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/auth.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>Create Account</h2>
+
+        <form action="./php/register.php" method="POST" id="registerForm">
+            <input type="text" name="name" placeholder="Full Name" id="regName">
+            <input type="email" name="email" placeholder="Email" id="regEmail">
+            <input type="password" name="password" placeholder="Password" id="regPassword">
+
+            <button type="submit">Register</button>
+
+            <p>Already have an account? <a href="./login.html">Login</a></p>
+        </form>
+    </div>
+
+    <script src="./js/auth.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,423 @@
+<section class="products" id="products"><br><br><br><br><br><br>
+    <h1 class="heading"><span>OUR </span>Flowers Collection</h1>
+
+    <div class="box-container">
+
+        <!-- PRODUCT 1 -->
+        <div class="box">
+            <div class="image">
+                <img src="img/01.jpg" alt="">
+                <div class="icons">
+
+                    <form action="./php/wishlist_add.php" method="post">
+                        <input type="hidden" name="product_id" value="1">
+                        <input type="hidden" name="product_name" value="Orange & Purple Lily Bouquet">
+                        <input type="hidden" name="product_price" value="1499">
+                        <input type="hidden" name="product_img" value="01.jpg">
+                        <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+                    </form>
+
+                    <form action="./php/add_cart.php" method="post">
+                        <input type="hidden" name="product_id" value="1">
+                        <input type="hidden" name="product_name" value="Orange & Purple Lily Bouquet">
+                        <input type="hidden" name="product_price" value="1499">
+                        <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>Orange & Purple Lily Bouquet</h3>
+                <div class="price">₹1499</div>
+            </div>
+        </div>
+
+
+        <!-- PRODUCT 2 -->
+        <div class="box">
+            <div class="image">
+                <img src="img/02.jpg" alt="">
+                <div class="icons">
+
+                    <form action="./php/wishlist_add.php" method="post">
+                        <input type="hidden" name="product_id" value="2">
+                        <input type="hidden" name="product_name" value="Luxury Purple & Blue Bouquet">
+                        <input type="hidden" name="product_price" value="2199">
+                        <input type="hidden" name="product_img" value="02.jpg">
+                        <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+                    </form>
+
+                    <form action="./php/add_cart.php" method="post">
+                        <input type="hidden" name="product_id" value="2">
+                        <input type="hidden" name="product_name" value="Luxury Purple & Blue Bouquet">
+                        <input type="hidden" name="product_price" value="2199">
+                        <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>Luxury Purple & Blue Bouquet</h3>
+                <div class="price">₹2199</div>
+            </div>
+        </div>
+
+        <!-- PRODUCT 3 -->
+        <div class="box">
+            <div class="image">
+                <img src="img/03.jpg" alt="">
+                <div class="icons">
+
+                    <form action="./php/wishlist_add.php" method="post">
+                        <input type="hidden" name="product_id" value="3">
+                        <input type="hidden" name="product_name" value="Premium Blue Rose Bouquet">
+                        <input type="hidden" name="product_price" value="1299">
+                        <input type="hidden" name="product_img" value="03.jpg">
+                        <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+                    </form>
+
+                    <form action="./php/add_cart.php" method="post">
+                        <input type="hidden" name="product_id" value="3">
+                        <input type="hidden" name="product_name" value="Premium Blue Rose Bouquet">
+                        <input type="hidden" name="product_price" value="1299">
+                        <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>Premium Blue Rose Bouquet</h3>
+                <div class="price">₹1299</div>
+            </div>
+        </div>
+
+        <!-- PRODUCT 4 -->
+        <div class="box">
+            <div class="image">
+                <img src="img/04.jpg" alt="">
+                <div class="icons">
+
+                    <form action="./php/wishlist_add.php" method="post">
+                        <input type="hidden" name="product_id" value="4">
+                        <input type="hidden" name="product_name" value="Classic Red Rose Bouquet">
+                        <input type="hidden" name="product_price" value="899">
+                        <input type="hidden" name="product_img" value="04.jpg">
+                        <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+                    </form>
+
+                    <form action="./php/add_cart.php" method="post">
+                        <input type="hidden" name="product_id" value="4">
+                        <input type="hidden" name="product_name" value="Classic Red Rose Bouquet">
+                        <input type="hidden" name="product_price" value="899">
+                        <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>Classic Red Rose Bouquet</h3>
+                <div class="price">₹899</div>
+            </div>
+        </div>
+
+        <!-- PRODUCT 5 -->
+        <div class="box">
+            <div class="image">
+                <img src="img/05.jpg" alt="">
+                <div class="icons">
+
+                    <form action="./php/wishlist_add.php" method="post">
+                        <input type="hidden" name="product_id" value="5">
+                        <input type="hidden" name="product_name" value="Grand Red & Pink Rose Mix Bouquet">
+                        <input type="hidden" name="product_price" value="1299">
+                        <input type="hidden" name="product_img" value="05.jpg">
+                        <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+                    </form>
+
+                    <form action="./php/add_cart.php" method="post">
+                        <input type="hidden" name="product_id" value="5">
+                        <input type="hidden" name="product_name" value="Grand Red & Pink Rose Mix Bouquet">
+                        <input type="hidden" name="product_price" value="1299">
+                        <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>Grand Red & Pink Rose Mix Bouquet</h3>
+                <div class="price">₹1299</div>
+            </div>
+        </div>
+
+        <div class="box">
+    <div class="image">
+        <img src="img/06.jpg" alt="">
+        <div class="icons">
+
+            <form action="./php/wishlist_add.php" method="post">
+                <input type="hidden" name="product_id" value="6">
+                <input type="hidden" name="product_name" value="Pink Tulip Bouquet">
+                <input type="hidden" name="product_price" value="1599">
+                <input type="hidden" name="product_img" value="06.jpg">
+                <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+            </form>
+
+            <form action="./php/add_cart.php" method="post">
+                <input type="hidden" name="product_id" value="6">
+                <input type="hidden" name="product_name" value="Pink Tulip Bouquet">
+                <input type="hidden" name="product_price" value="1599">
+                <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="content">
+        <h3>Pink Tulip Bouquet</h3>
+        <div class="price">₹1599</div>
+    </div>
+</div>
+<div class="box">
+    <div class="image">
+        <img src="img/07.jpg" alt="">
+        <div class="icons">
+
+            <form action="./php/wishlist_add.php" method="post">
+                <input type="hidden" name="product_id" value="7">
+                <input type="hidden" name="product_name" value="Blue Orchid Flower Basket">
+                <input type="hidden" name="product_price" value="1899">
+                <input type="hidden" name="product_img" value="07.jpg">
+                <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+            </form>
+
+            <form action="./php/add_cart.php" method="post">
+                <input type="hidden" name="product_id" value="7">
+                <input type="hidden" name="product_name" value="Blue Orchid Flower Basket">
+                <input type="hidden" name="product_price" value="1899">
+                <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="content">
+        <h3>Blue Orchid Flower Basket</h3>
+        <div class="price">₹1899</div>
+    </div>
+</div>
+<div class="box">
+    <div class="image">
+        <img src="img/08.jpg" alt="">
+        <div class="icons">
+
+            <form action="./php/wishlist_add.php" method="post">
+                <input type="hidden" name="product_id" value="8">
+                <input type="hidden" name="product_name" value="White Daisy Wrapped Bouquet">
+                <input type="hidden" name="product_price" value="999">
+                <input type="hidden" name="product_img" value="08.jpg">
+                <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+            </form>
+
+            <form action="./php/add_cart.php" method="post">
+                <input type="hidden" name="product_id" value="8">
+                <input type="hidden" name="product_name" value="White Daisy Wrapped Bouquet">
+                <input type="hidden" name="product_price" value="999">
+                <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="content">
+        <h3>White Daisy Wrapped Bouquet</h3>
+        <div class="price">₹999</div>
+    </div>
+</div>
+<div class="box">
+    <div class="image">
+        <img src="img/09.jpg" alt="">
+        <div class="icons">
+
+            <form action="./php/wishlist_add.php" method="post">
+                <input type="hidden" name="product_id" value="9">
+                <input type="hidden" name="product_name" value="Elegant Purple Orchid Bouquet">
+                <input type="hidden" name="product_price" value="1799">
+                <input type="hidden" name="product_img" value="09.jpg">
+                <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+            </form>
+
+            <form action="./php/add_cart.php" method="post">
+                <input type="hidden" name="product_id" value="9">
+                <input type="hidden" name="product_name" value="Elegant Purple Orchid Bouquet">
+                <input type="hidden" name="product_price" value="1799">
+                <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="content">
+        <h3>Elegant Purple Orchid Bouquet</h3>
+        <div class="price">₹1799</div>
+    </div>
+</div>
+<div class="box">
+    <div class="image">
+        <img src="img/10.jpg" alt="">
+        <div class="icons">
+
+            <form action="./php/wishlist_add.php" method="post">
+                <input type="hidden" name="product_id" value="10">
+                <input type="hidden" name="product_name" value="Sunflower Love Bunch">
+                <input type="hidden" name="product_price" value="1399">
+                <input type="hidden" name="product_img" value="10.jpg">
+                <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+            </form>
+
+            <form action="./php/add_cart.php" method="post">
+                <input type="hidden" name="product_id" value="10">
+                <input type="hidden" name="product_name" value="Sunflower Love Bunch">
+                <input type="hidden" name="product_price" value="1399">
+                <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="content">
+        <h3>Sunflower Love Bunch</h3>
+        <div class="price">₹1399</div>
+    </div>
+</div>
+<div class="box">
+    <div class="image">
+        <img src="img/11.jpg" alt="">
+        <div class="icons">
+
+            <form action="./php/wishlist_add.php" method="post">
+                <input type="hidden" name="product_id" value="11">
+                <input type="hidden" name="product_name" value="Romantic Red & White Bouquet">
+                <input type="hidden" name="product_price" value="1699">
+                <input type="hidden" name="product_img" value="11.jpg">
+                <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+            </form>
+
+            <form action="./php/add_cart.php" method="post">
+                <input type="hidden" name="product_id" value="11">
+                <input type="hidden" name="product_name" value="Romantic Red & White Bouquet">
+                <input type="hidden" name="product_price" value="1699">
+                <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="content">
+        <h3>Romantic Red & White Bouquet</h3>
+        <div class="price">₹1699</div>
+    </div>
+</div>
+<div class="box">
+    <div class="image">
+        <img src="img/12.jpg" alt="">
+        <div class="icons">
+
+            <form action="./php/wishlist_add.php" method="post">
+                <input type="hidden" name="product_id" value="12">
+                <input type="hidden" name="product_name" value="Deluxe Pink Rose Bouquet">
+                <input type="hidden" name="product_price" value="1499">
+                <input type="hidden" name="product_img" value="12.jpg">
+                <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+            </form>
+
+            <form action="./php/add_cart.php" method="post">
+                <input type="hidden" name="product_id" value="12">
+                <input type="hidden" name="product_name" value="Deluxe Pink Rose Bouquet">
+                <input type="hidden" name="product_price" value="1499">
+                <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="content">
+        <h3>Deluxe Pink Rose Bouquet</h3>
+        <div class="price">₹1499</div>
+    </div>
+</div>
+<div class="box">
+    <div class="image">
+        <img src="img/13.jpg" alt="">
+        <div class="icons">
+
+            <form action="./php/wishlist_add.php" method="post">
+                <input type="hidden" name="product_id" value="13">
+                <input type="hidden" name="product_name" value="Fresh Blue & Pink Mix Bouquet">
+                <input type="hidden" name="product_price" value="1699">
+                <input type="hidden" name="product_img" value="13.jpg">
+                <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+            </form>
+
+            <form action="./php/add_cart.php" method="post">
+                <input type="hidden" name="product_id" value="13">
+                <input type="hidden" name="product_name" value="Fresh Blue & Pink Mix Bouquet">
+                <input type="hidden" name="product_price" value="1699">
+                <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="content">
+        <h3>Fresh Blue & Pink Mix Bouquet</h3>
+        <div class="price">₹1699</div>
+    </div>
+</div>
+<div class="box">
+    <div class="image">
+        <img src="img/13.jpg" alt="">
+        <div class="icons">
+
+            <form action="./php/wishlist_add.php" method="post">
+                <input type="hidden" name="product_id" value="13">
+                <input type="hidden" name="product_name" value="Fresh Blue & Pink Mix Bouquet">
+                <input type="hidden" name="product_price" value="1699">
+                <input type="hidden" name="product_img" value="13.jpg">
+                <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+            </form>
+
+            <form action="./php/add_cart.php" method="post">
+                <input type="hidden" name="product_id" value="13">
+                <input type="hidden" name="product_name" value="Fresh Blue & Pink Mix Bouquet">
+                <input type="hidden" name="product_price" value="1699">
+                <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="content">
+        <h3>Fresh Blue & Pink Mix Bouquet</h3>
+        <div class="price">₹1699</div>
+    </div>
+</div>
+<div class="box">
+    <div class="image">
+        <img src="img/15.jpg" alt="">
+        <div class="icons">
+
+            <form action="./php/wishlist_add.php" method="post">
+                <input type="hidden" name="product_id" value="15">
+                <input type="hidden" name="product_name" value="Red & Pink Love Heart Bouquet">
+                <input type="hidden" name="product_price" value="999">
+                <input type="hidden" name="product_img" value="15.jpg">
+                <button type="submit" name="add_wishlist" class="wishlist-btn fas fa-heart"></button>
+            </form>
+
+            <form action="./php/add_cart.php" method="post">
+                <input type="hidden" name="product_id" value="15">
+                <input type="hidden" name="product_name" value="Red & Pink Love Heart Bouquet">
+                <input type="hidden" name="product_price" value="999">
+                <button type="submit" name="add_to_cart" class="cart-btn">Add to Cart</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="content">
+        <h3>Red & Pink Love Heart Bouquet</h3>
+        <div class="price">₹999</div>
+    </div>
+</div>
+
+</section>
